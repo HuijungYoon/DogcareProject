@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DogWalking">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="211dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/titlebar"
+            layout="@layout/title_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_height="159dp"
+            app:srcCompat="@drawable/dogfind" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="272dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <com.hanks.htextview.line.LineTextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:paddingRight="10dp"
+            android:text="날짜선택"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            app:animationDuration="3000"
+            app:lineColor="#1367bc"
+            app:lineWidth="4dp" />
+
+        <com.hanks.htextview.line.LineTextView
+            android:id="@+id/calendar_tv"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="56dp"
+            app:animationDuration="3000"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            app:lineColor="#1367bc"
+            app:lineWidth="4dp"
+            />
+
+        <com.hanks.htextview.line.LineTextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:paddingRight="10dp"
+            android:text="위치선택"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            app:animationDuration="3000"
+            app:lineColor="#1367bc"
+            app:lineWidth="4dp" />
+
+        <com.hanks.htextview.line.LineTextView
+            android:id="@+id/location_tv"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:animationDuration="3000"
+            app:lineColor="#1367bc"
+            app:lineWidth="4dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/next_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="다음" />
+</LinearLayout>

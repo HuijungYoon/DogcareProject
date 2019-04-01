@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".infodogsitter.info_Custom_Dialog_DogSitter">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:paddingRight="10dp"
+        android:text="반려견산책도우미신청"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/dogsitter_profile_img"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/dogsitter_profile_img"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        app:civ_border_color="#cccccc"
+        app:civ_border_width="2dp" />
+    <com.hanks.htextview.line.LineTextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:paddingRight="10dp"
+        android:text="반려견돌보미이름"
+        android:textSize="16dp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        app:animationDuration="3000"
+        app:lineColor="#1367bc"
+        app:lineWidth="4dp" />
+
+    <com.hanks.htextview.line.LineTextView
+        android:id="@+id/name_money_txt"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+
+        android:paddingRight="10dp"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:animationDuration="3000"
+        app:lineColor="#1367bc"
+        app:lineWidth="4dp" />
+    <com.hanks.htextview.line.LineTextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:paddingRight="10dp"
+        android:text="신청날짜"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:animationDuration="3000"
+        app:lineColor="#1367bc"
+        app:lineWidth="4dp" />
+
+    <com.hanks.htextview.line.LineTextView
+        android:id="@+id/data_money_txt"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:paddingRight="10dp"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:animationDuration="3000"
+        app:lineColor="#1367bc"
+        app:lineWidth="4dp" />
+    <com.hanks.htextview.line.LineTextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:paddingRight="10dp"
+        android:text="주소"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:animationDuration="3000"
+        app:lineColor="#1367bc"
+        app:lineWidth="4dp" />
+
+    <com.hanks.htextview.line.LineTextView
+        android:id="@+id/address_money_txt"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:gravity="center"
+        android:paddingRight="10dp"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:animationDuration="3000"
+        app:lineColor="#1367bc"
+        app:lineWidth="4dp" />
+    <com.hanks.htextview.line.LineTextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:paddingRight="10dp"
+        android:text="가격"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:animationDuration="3000"
+        app:lineColor="#1367bc"
+        app:lineWidth="4dp" />
+
+    <com.hanks.htextview.line.LineTextView
+        android:id="@+id/price_txt"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:paddingRight="10dp"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:animationDuration="3000"
+        app:lineColor="#1367bc"
+        app:lineWidth="4dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/paymoney_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="30dp"
+            android:text="결제하기" />
+
+        <Button
+            android:id="@+id/cancel_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:text="취소" />
+    </LinearLayout>
+
+</LinearLayout>

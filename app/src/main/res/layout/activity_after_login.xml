@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AfterLogin">
+
+  <include
+      android:id="@+id/title_bar"
+      layout="@layout/title_bar" />
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="250dp"
+      android:layout_weight="1"
+      android:orientation="horizontal">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="185dp"
+        android:layout_height="match_parent">
+
+      <ImageButton
+          android:id="@+id/mydog_btn"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          app:srcCompat="@drawable/dogone" />
+
+      <TextView
+          android:id="@+id/dog"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="45dp"
+          android:layout_marginTop="215dp"
+          android:text="반려견산책신청"
+          android:textStyle="bold" />
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="185dp"
+        android:layout_height="match_parent">
+
+      <ImageButton
+          android:id="@+id/dog_walker_btn"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:src="@drawable/dogwae" />
+
+      <TextView
+          android:id="@+id/dogicon"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="72dp"
+          android:layout_marginTop="215dp"
+          android:text="더그시터"
+          android:textStyle="bold" />
+
+    </android.support.v7.widget.CardView>
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="250dp"
+      android:layout_weight="1"
+      android:orientation="horizontal">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="185dp"
+        android:layout_height="match_parent">
+
+      <ImageButton
+          android:id="@+id/fun_btn"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          app:srcCompat="@drawable/pawprint" />
+
+      <TextView
+          android:id="@+id/pawprint"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="80dp"
+          android:layout_marginTop="230dp"
+          android:text="FUN"
+          android:textStyle="bold" />
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="185dp"
+        android:layout_height="match_parent">
+
+      <ImageButton
+          android:id="@+id/profile_btn"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          app:srcCompat="@drawable/profile100" />
+
+      <TextView
+          android:id="@+id/textView"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="72dp"
+          android:layout_marginTop="230dp"
+          android:text="프로필"
+          android:textStyle="bold" />
+    </android.support.v7.widget.CardView>
+  </LinearLayout>
+
+</LinearLayout>

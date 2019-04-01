@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "550511377315",
+    "firebase_url": "https://dogcarepro-219403.firebaseio.com",
+    "project_id": "dogcarepro-219403",
+    "storage_bucket": "dogcarepro-219403.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550511377315:android:3d585f6fd31f9384",
+        "android_client_info": {
+          "package_name": "kr.ac.solbridge.student.hyoon.dogcareproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "550511377315-17el2vclcc3hp61ap687dinpg7fcv0t7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kr.ac.solbridge.student.hyoon.dogcareproject",
+            "certificate_hash": "b3e22812652a9f48ccefbde0fd81af857f783858"
+          }
+        },
+        {
+          "client_id": "550511377315-ik5mjq7hivv044e7o21s4qalk2211ipq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDB_JvpxozUbF8LXUQBact9o5dP-7S68bE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "550511377315-ik5mjq7hivv044e7o21s4qalk2211ipq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

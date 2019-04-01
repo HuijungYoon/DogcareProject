@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User_Register">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dogfind"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="153dp"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="HelloPet" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="352dp"
+        android:layout_below="@+id/logo"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <custom_font.MyEditText
+                android:id="@+id/email_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="115dp"
+                android:background="#00000000"
+                android:hint="메일을 입력해주세요"
+                android:inputType="text"
+                android:letterSpacing="0.1"
+                android:textColorHint="#aeb0a5"
+                android:textSize="12dp" />
+
+            <Button
+                android:id="@+id/validate_email_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="26dp"
+                android:text="중복확인" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="5dp"
+            android:background="#c1c1c1"
+
+            >
+
+        </LinearLayout>
+
+        <custom_font.MyTextView
+            android:id="@+id/checkid_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:textColor="#000000"
+            android:textSize="11dp" />
+
+        <custom_font.MyEditText
+            android:id="@+id/pw_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="#00000000"
+            android:hint="비밀번호를 입력해주세요"
+            android:inputType="textPassword"
+            android:letterSpacing="0.1"
+            android:textColorHint="#aeb0a5"
+            android:textSize="12dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="5dp"
+            android:background="#c1c1c1"></LinearLayout>
+
+        <custom_font.MyEditText
+            android:id="@+id/pwconfirm_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="5dp"
+            android:background="#00000000"
+            android:hint="비밀번호를 재입력해주세요"
+            android:inputType="textPassword"
+            android:letterSpacing="0.1"
+            android:textColorHint="#aeb0a5"
+            android:textSize="12dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="5dp"
+            android:background="#c1c1c1"></LinearLayout>
+
+        <custom_font.MyEditText
+            android:id="@+id/name_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="#00000000"
+            android:hint="이름을 입력해주세요"
+            android:inputType="text"
+            android:letterSpacing="0.1"
+            android:textColorHint="#aeb0a5"
+            android:textSize="12dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="10dp"
+            android:background="#c1c1c1">
+
+        </LinearLayout>
+
+
+        <custom_font.MyTextView
+            android:id="@+id/result_txtview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+
+            android:textColor="#000000"
+            android:textSize="11dp" />
+
+        <ImageView
+            android:id="@+id/adduser_btn"
+            android:layout_width="130dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:scaleType="fitXY"
+
+
+            android:src="@drawable/signin" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
