@@ -63,7 +63,7 @@ public class Chatting_Client_Side extends AppCompatActivity implements View.OnCl
     private Socket mSocket = null;
     public String NAME;
     public String SitterName;
-    public static final String IPADRRESS= "34.235.147.50";
+    public static final String IPADRRESS= "your IPaddress";
     //public static final String IPADRRESS= "192.168.0.58";
     public static String division;
     private ApiConfig mapiconfig;
