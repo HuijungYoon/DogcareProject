@@ -41,13 +41,15 @@ MySql
  ## 1.로그인/회원가입
  HTTP프로토콜을 이용해서 AWS 서버에 회원을 등록하고 가입합니다.
  
- ![로그인회원가입](https://user-images.githubusercontent.com/48486487/55529989-fda9c180-56de-11e9-85ed-923e60e10556.gif)
+ ![로그인](https://user-images.githubusercontent.com/48486487/55698322-3360ea00-5a00-11e9-8e67-1280aa699813.gif)
  
  ## 2.프로필변경
  자신이 처음에 등록했던 프로필과 경력을 변경 수정할수있습니다.
  
- ![프로필변경](https://user-images.githubusercontent.com/48486487/55530047-4792a780-56df-11e9-9d39-af23a952ab5f.gif)
+ ![프로필1](https://user-images.githubusercontent.com/48486487/55698507-2f819780-5a01-11e9-9be1-11340a70af67.gif) ![프로필2](https://user-images.githubusercontent.com/48486487/55698527-3f00e080-5a01-11e9-820e-64024c9914f7.gif)
  
+
+
  ## 3.더그시터찾기
  자신이 사는지역이나 원하는 주소를 검색한후 반경 5KM내에 등록되어있는 펫시터를 찾습니다.
  
