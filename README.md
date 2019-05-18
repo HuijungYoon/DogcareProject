@@ -46,7 +46,7 @@ MySql
  ## 2.프로필변경
  자신이 처음에 등록했던 프로필과 경력을 변경 수정할수있습니다.
  
- ![프로필1](https://user-images.githubusercontent.com/48486487/55698507-2f819780-5a01-11e9-9be1-11340a70af67.gif) ![프로필2](https://user-images.githubusercontent.com/48486487/55698527-3f00e080-5a01-11e9-820e-64024c9914f7.gif)
+ ![커리어gif](https://user-images.githubusercontent.com/48486487/57968363-5b9b1b80-79a4-11e9-9221-044b73891714.gif)
  
 
 
