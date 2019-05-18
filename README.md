@@ -41,7 +41,7 @@ MySql
  ## 1.로그인/회원가입
  HTTP프로토콜을 이용해서 AWS 서버에 회원을 등록하고 가입합니다.
  
- ![로그인](https://user-images.githubusercontent.com/48486487/55698322-3360ea00-5a00-11e9-8e67-1280aa699813.gif)
+![로그인GIF](https://user-images.githubusercontent.com/48486487/57968292-17f3e200-79a3-11e9-8e4a-50bc29ec4a0d.gif)
  
  ## 2.프로필변경
  자신이 처음에 등록했던 프로필과 경력을 변경 수정할수있습니다.
