@@ -65,7 +65,8 @@ TCP/IP 프로토콜을 이용해서 구현을 했습니다.
 ## 5. 결제
 채팅 및 영상통화후 마음에들었으면 비용을 지불합니다.
 
-![결제](https://user-images.githubusercontent.com/48486487/55530198-12d32000-56e0-11e9-99dc-576f71faf934.gif)
+![결제gif](https://user-images.githubusercontent.com/48486487/57968175-0100c000-79a2-11e9-8c7f-3aca205134bb.gif)
+
 
 ## 6. 웹크롤링
 유명 연예인들이 자신의 반려견과 함꼐 찍은 일상을 담은 뉴스를 크롤링 해왔습니다.
