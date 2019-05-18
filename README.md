@@ -21,8 +21,6 @@ AWS(ubuntu) - Apache
 MySql
 
 
-
-
 # 01.작품소개
 제작기간 : 7주
  이어플을 만든이유는 반려견을 키우는 단독세대가 자신의 반려견을 산책시켜줄 반려견시터를 찾을 수 있게 
@@ -55,23 +53,31 @@ MySql
  
 ![더그시터찾기gif](https://user-images.githubusercontent.com/48486487/57968552-090f2e80-79a7-11e9-98ca-d9da1f809171.gif)
 
-## 4. 채팅 및 영상통화
+## 4. 채팅
 자신의 펫을 맡기기전 원하는 펫시터와 채팅및 영상통화를 할수 있는 기능입니다
 TCP/IP 프로토콜을 이용해서 구현을 했습니다.
 
-![채팅](https://user-images.githubusercontent.com/48486487/55530111-a9531180-56df-11e9-91da-1b2e5e2f67c0.gif)
-![영상통화](https://user-images.githubusercontent.com/48486487/55530162-eb7c5300-56df-11e9-8fb1-baad975f0d1f.gif)
+![채팅gif](https://user-images.githubusercontent.com/48486487/57969443-eb939200-79b1-11e9-82cc-1664371731dd.gif)
 
-## 5. 결제
+## 5.영상통화
+
+자신의 펫을 맡기기전 원하는 펫시터와 영상통화를 할수 있는 기능입니다
+WebRTC 프로토콜을 이용해서 구현을 했습니다.
+
+![영상통화gif](https://user-images.githubusercontent.com/48486487/57969641-2eef0000-79b4-11e9-8a27-61a67db443b2.gif)
+
+
+## 6. 결제
 채팅 및 영상통화후 마음에들었으면 비용을 지불합니다.
 
 ![결제gif](https://user-images.githubusercontent.com/48486487/57968175-0100c000-79a2-11e9-8c7f-3aca205134bb.gif)
 
 
-## 6. 웹크롤링
+## 7. 웹크롤링
 유명 연예인들이 자신의 반려견과 함꼐 찍은 일상을 담은 뉴스를 크롤링 해왔습니다.
 
-![웹크롤링](https://user-images.githubusercontent.com/48486487/55530241-46ae4580-56e0-11e9-9835-279d9c09ed69.gif)
+![웹크롤gif](https://user-images.githubusercontent.com/48486487/57969890-79bd4780-79b5-11e9-9e27-9351ce4c1f3b.gif)
+
 
 # Conclusion(결론 및 느낀점)
 처음으로 서버와 통신하는 앱을 만들어서 처음에는 시행착오가 많았습니다. 하지만 지나온 발자취를 뒤돌아보니 힘든점보다 재미와 만들었다는
