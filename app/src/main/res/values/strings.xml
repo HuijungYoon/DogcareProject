@@ -1,8 +1,13 @@
 <resources>
     <string name="app_name">DogCareProject</string>
     <string name="facebook_app_id">yourkey</string>
+<<<<<<< HEAD
     <string name="fb_login_protocol_scheme">fb298088094348436</string>
     <string name="kakao_app_key">e6385a0126ec84ce8e312b99bfa1fe12</string>
+=======
+    <string name="fb_login_protocol_scheme">yourkey</string>
+    <string name="kakao_app_key">yourkey</string>
+>>>>>>> 8dd7a4b5b7f40b795dfd8754d6912ddff49c128e
     <string name="title_activity_dog_sitter">DogSitterActivity</string>
     <string name="title_activity_chatting__client">Chatting_Client</string>
 
