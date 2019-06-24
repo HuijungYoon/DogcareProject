@@ -21,7 +21,7 @@
         android:required="true" />
 
     <application
-        android:name=".ChattingDatabaseRealm"
+        android:name="yoonhuijung.dogcareproject.chatting.ChattingDatabaseRealm"
         android:allowBackup="true"
         android:hardwareAccelerated="false"
         android:icon="@mipmap/ic_launcher"
@@ -29,6 +29,7 @@
         android:largeHeap="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
         android:theme="@style/AppTheme">
         <provider
             android:name="android.support.v4.content.FileProvider"
@@ -42,7 +43,7 @@
 
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
-            android:value=".User_Register" />
+            android:value="yoonhuijung.dogcareproject.menu.User_Register" />
         <meta-data
             android:name="com.kakao.sdk.AppKey"
             android:value="@string/kakao_app_key" />
@@ -69,7 +70,7 @@
                 <data android:scheme="@string/fb_login_protocol_scheme" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity">
+        <activity android:name="yoonhuijung.dogcareproject.menu.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -77,11 +78,11 @@
             </intent-filter>
         </activity>
         <!-- <activity android:name=".User_Register"></activity> -->
-        <activity android:name=".apprtc.ConnectActivity" />
-        <activity android:name=".apprtc.CallActivity" />
-        <activity android:name=".apprtc.SettingsActivity" />
-        <activity android:name=".User_Register" />
-        <activity android:name=".AfterLogin">
+        <activity android:name="yoonhuijung.dogcareproject.videocall.ConnectActivity" />
+        <activity android:name="yoonhuijung.dogcareproject.videocall.CallActivity" />
+        <activity android:name="yoonhuijung.dogcareproject.videocall.SettingsActivity" />
+        <activity android:name="yoonhuijung.dogcareproject.menu.User_Register" />
+        <activity android:name="yoonhuijung.dogcareproject.menu.AfterLogin">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -89,23 +90,22 @@
                 <data android:scheme="iamportapp" android:host="backtoapp" />
             </intent-filter>
         </activity>
-        <activity android:name=".include" />
-        <activity android:name=".calendar" />
-        <activity android:name=".Search_Address" />
-        <activity android:name=".DogWalking" />
-        <activity android:name=".Account" />
-        <activity android:name=".updateAccount" />
-        <activity android:name=".DogSitterActivity" />
-        <activity android:name=".CallendarforDogSitter" />
-        <activity android:name=".SearchAddressforDogSitter" />
-        <activity android:name=".dogsitterRecyclerview.DogSitter_Register_List" />
-        <activity android:name=".matchingrecyclerview.Matchrecyclerview" />
-        <activity android:name=".infodogsitter.InfoForDogSitter" />
-        <activity android:name=".chatting.Chatting_Client_Side" />
-        <activity android:name=".ChattingList" />
-        <activity android:name=".ChattingAfterReceiveActivity" />
-        <activity android:name=".infodogsitter.info_Custom_Dialog_DogSitter" />
-        <activity android:name=".infodogsitter.paymentwebview">
+        <activity android:name="yoonhuijung.dogcareproject.callendar.calendar" />
+        <activity android:name="yoonhuijung.dogcareproject.geoapi.Search_Address" />
+        <activity android:name="yoonhuijung.dogcareproject.menu.DogWalking" />
+        <activity android:name="yoonhuijung.dogcareproject.menu.Account" />
+        <activity android:name="yoonhuijung.dogcareproject.menu.UpdateAccount" />
+        <activity android:name="yoonhuijung.dogcareproject.menu.DogSitterActivity" />
+        <activity android:name="yoonhuijung.dogcareproject.callendar.CallendarforDogSitter" />
+        <activity android:name="yoonhuijung.dogcareproject.geoapi.SearchAddressforDogSitter" />
+        <activity android:name="yoonhuijung.dogcareproject.dogsitterRecyclerview.DogSitter_Register_List" />
+        <activity android:name="yoonhuijung.dogcareproject.RecyclerCollection.Recycler.Matchrecyclerview" />
+        <activity android:name="yoonhuijung.dogcareproject.infodogsitter.InfoForDogSitter" />
+        <activity android:name="yoonhuijung.dogcareproject.chatting.Chatting_Client_Side" />
+        <activity android:name="yoonhuijung.dogcareproject.chatting.ChattingList" />
+        <activity android:name="yoonhuijung.dogcareproject.chatting.ChattingAfterReceiveActivity" />
+        <activity android:name="yoonhuijung.dogcareproject.infodogsitter.info_Custom_Dialog_DogSitter" />
+        <activity android:name="yoonhuijung.dogcareproject.infodogsitter.paymentwebview">
         </activity>
 
     </application>

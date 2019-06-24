@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#ff6776"
-    tools:context=".ChattingList">
+    tools:context="yoonhuijung.dogcareproject.chatting.ChattingList">
 
     <TextView
         android:layout_width="match_parent"

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
-    tools:context=".matchingrecyclerview.Matchresult_item">
+    tools:context="yoonhuijung.dogcareproject.RecyclerCollection.item.Matchresult_item">
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/dogsitter_profile_img"
